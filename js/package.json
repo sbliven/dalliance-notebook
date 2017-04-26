@@ -1,0 +1,29 @@
+{
+  "name": "dalliance-notebook",
+  "version": "0.1.0",
+  "description": "A Jupyter widget for displaying genomic data using the Dalliance browser",
+  "author": "Spencer Bliven",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbliven/dalliance-notebook.git"
+  },
+  "keywords": [
+    "jupyter",
+    "widgets",
+    "ipython",
+    "ipywidgets"
+  ],
+  "scripts": {
+    "prepublish": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "jupyter-js-widgets": "^2.1.4",
+    "underscore": "^1.8.3"
+  }
+}
